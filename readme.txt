@@ -3,8 +3,8 @@ Contributors: palasthotel, greatestview
 Donate link: https://palasthotel.de/
 Tags: redirect, attachments, attachment, images
 Requires at least: 4.0
-Tested up to: 4.7.3
-Stable tag: 1.0
+Tested up to: 5.1
+Stable tag: 1.1
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -21,6 +21,9 @@ Further, when editing a post, the option to link images to their attachment page
 3. You’re done! Try following an attachment link, the browser should redirect back to the post, where this link is placed.
 
 == Changelog ==
+
+= 1.1 =
+* Added Gutenberg support.
 
 = 1.0 =
 * First release
