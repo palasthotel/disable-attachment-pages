@@ -16,7 +16,8 @@ images to their attachment page in the backend.
 | Situation | Result |
 |---|---|
 | Attachment belongs to a published post or page | `301` redirect to that content |
-| Attachment has no parent, or the parent is not published | `302` redirect to the site's home URL |
+| Attachment has no parent | `302` redirect to the site's home URL |
+| Parent is not published (draft, pending, private, trash) | anonymous visitors already get a `404` from core; logged-in users who can see the attachment get a `302` to the home URL |
 | Backend, media modal and block editor | the "Attachment Page" link option is hidden via CSS |
 
 The redirect runs on `template_redirect` at priority 1, so it happens before a
