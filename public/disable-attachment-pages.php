@@ -58,7 +58,7 @@ add_action( 'admin_head', 'disable_attachment_pages_disable_linkto' );
  * option can be opened from anywhere in the backend.
  */
 function disable_attachment_pages_disable_linkto() {
-	echo <<<EOT
+	?>
 <style>
 .setting select.link-to option[value="post"],
 .setting select[data-setting="link"] option[value="post"],
@@ -66,5 +66,5 @@ function disable_attachment_pages_disable_linkto() {
 	display: none;
 }
 </style>
-EOT;
+	<?php
 }
