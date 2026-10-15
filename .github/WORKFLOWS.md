@@ -13,4 +13,4 @@ What is specific to this plugin:
 | main file | `public/disable-attachment-pages.php` - keep the name, see [CONTRIBUTING.md](../CONTRIBUTING.md) |
 | version file | `version.txt` (`release-type: simple`) - keep it, release-please and the scripts read the version there |
 | build step | none |
-| PHP | `php -l` on 7.4, 8.2, 8.3 and 8.4 (the shared default); the plugin declares `Requires PHP: 7.0` |
+| PHP | `php -l` on 8.0 to 8.5 (the shared default); the plugin declares `Requires PHP: 8.0` |

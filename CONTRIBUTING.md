@@ -97,7 +97,8 @@ SLUG=disable-attachment-pages bash ../github-workflows/wp-plugin/bin/pack.sh
 
 ## Checks
 
-Every PR runs `php -l` against PHP 7.4, 8.2, 8.3 and 8.4, packs the plugin and checks
-the payload, and checks the version carriers agree. The plugin declares `Requires PHP: 7.0`, so avoid syntax newer than that
+Every PR runs `php -l` against PHP 8.0 to 8.5, runs Plugin Check, packs the plugin and
+checks the payload, and checks the version carriers agree. The plugin declares
+`Requires PHP: 8.0`, so avoid syntax newer than that
 unless you raise the requirement in the plugin header and `public/readme.txt` in
 the same PR.
